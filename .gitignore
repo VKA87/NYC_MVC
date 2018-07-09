@@ -1,7 +1,6 @@
-__pycache__
+config.ini
 *.png
 *.jpg
 *.jpeg
-config.ini
 *.csv
-.ipynb_checkpoints
+__pycache__
