@@ -4,3 +4,4 @@ config.ini
 *.jpeg
 *.csv
 __pycache__
+*.ini
