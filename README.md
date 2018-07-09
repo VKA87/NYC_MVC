@@ -23,7 +23,7 @@ NYC Motor Vehicle Collisions.ipynb  | Notebook describing the analysis          
 
 
 ## Getting the Data
-The data are queried using an API. <b>The two scripts *get_MVC.py* and *get_traffic_volume.py* require an API_KEY which must be stored in an <b>*config.ini*</b> file which has the following structure</b>
+The two scripts *get_MVC.py* and *get_traffic_volume.py* require an <b>API key</b> which must be stored in an <b>*config.ini*</b> file which has the following structure
 
 ```python
 [API KEYS]
