@@ -3,11 +3,11 @@
 ## Introduction
 
 This repository contains an analysis of the road accidents in New York City as reported by the NYPD.
-The data are available on the NYC open data website at
+The data is available on the NYC open data website at
 
 https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95
 
-The data are analysed in light of the traffic data in NYC available on the NYC open data website as well at 
+The data is analysed in light of the traffic data in NYC available on the NYC open data website as well at 
 
 https://data.cityofnewyork.us/Transportation/Traffic-Volume-Counts-2012-2013-/p424-amsu
 
@@ -19,7 +19,7 @@ The repository contains the following files
 get_MVC.py                          | python script to get the motor vehicle collision data               |
 get_traffic_volume.py               | python script to get the traffic volume                             |
 NYC_boundaries.py                   | python script which returns the boundary of NYC (for creating maps) |
-NYC Motor Vehicle Collisions.ipynb  | Notebook describing the analysis                                    |
+NYC Motor Vehicle Collisions.ipynb  | python notebook describing the analysis                                    |
 
 
 ## Getting the Data
