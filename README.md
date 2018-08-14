@@ -37,7 +37,7 @@ These keys can be obtained by registering here:
 ### Getting Collision Data  (get_MVC.py)
 The script *get_MVC.py* get the Motor Vehicle Collision data between two years to be specified (in this analysis 2013 to 2017 included) and export it as a csv file <b>*Collisions.csv*</b>.
 
-### Getting Collision Data  (get_traffic_volume.py)
+### Getting Traffic Data  (get_traffic_volume.py)
 The script *get_traffic_volume.py* get traffic volume in NYC (in 2012-2013). 
 It  uses the googlemap API to find the longitude, latitude and borough of the road segments on which the traffic is measured. The dataframe is exported in a csv file <b>*Traffic_Volume.csv*</b>.
 
