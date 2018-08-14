@@ -59,6 +59,7 @@ def get_coord(address, API_KEY = None):
         - [latitude (float), longitude (float), borough (str)]: list of three floats
     '''
 
+
     # URL to request
     url = "https://maps.googleapis.com/maps/api/geocode/json?"
     
@@ -171,6 +172,13 @@ def get_coord_segment(main_road, From, To, API_KEY, wait = 10):
 
 
 def main():
+    
+    # Get user consent to proceed (and be charged by Google)
+    agree_to_charge = ''
+    while agree_to_charge !='yes':
+        agree_to_charge = input('Google will charge you for these API requests. Proceed? (yes/no): ')
+        if agree_to_charge == 'no':
+            return None
 
     # get API_KEY from config.ini
     cfg = ConfigParser()
